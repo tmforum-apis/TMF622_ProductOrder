@@ -4,11 +4,7 @@
   "info": {
     "description": "##TMF API Reference : TMF 622 - Product Ordering Management\n\n##Release : 17.5 - November 2017\n\nThe Product Ordering API provides a standardized mechanism for placing a product order with all of the necessary order parameters. The API consists of a simple set of operations that interact with CRM/Order Negotiation systems in a consistent manner. A product order is created based on a product offer that is defined in a catalog. The product offer identifies the product or set of products that are available to a customer, and includes characteristics such as pricing, product options and market.\n\nThe product order references the product offer and identifies any specific requests made by the customer.\n\n###Product Order resource\nA Product Order is a type of order which  can  be used to place an order  between a customer and a service provider or between a service provider and a partner and vice versa. Main Product  Order  attributes  are  its  identifier,  state,  priority  category  (mass  market,  Enterprise,  etc.) related dates (start, completion, etc.), related billing account, related parties and order items. Main Order Items (aka order lines) attributes are the ordered offering and product characteristics with the  related  action  to  be performed  (e.g.  add  or  delete  the  products),  state,  location  information  for delivery, order item price and price alteration.\n\n###Product Order API performs the following operations on product order :\n- Retrieval of a product order or a collection of product orders depending on filter criteria\n- Partial update of a product order (including updating rules)\n- Creation of a product order (including default values and creation rules)\n- Deletion of product order (for administration purposes)\n- Notification of events on product order.\n\nCopyright © TM Forum 2017. All Rights Reserved\n\n[Read more](http://api-docs.cf.ns.nd-paas.itn.ftgroup/tmf_productOrdering_3.0/TMF622_Product_Ordering_Management_API_REST_Specification_R16.5.1.pdf)",
     "version": "4.0.0_inProgress",
-    "title": "API ProductOrdering",
-    "x-logo": {
-      "url": "/redoc/logo.png",
-      "backgroundColor": "#FFFFFF"
-    }
+    "title": "API ProductOrdering"
   },
   
   "host": "serverRoot",
