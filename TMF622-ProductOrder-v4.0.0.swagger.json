@@ -3475,8 +3475,7 @@
             "description": "Related Entity reference. A related party defines party or party role linked to a specific entity.",
             "required": [
                 "@referredType",
-                "id",
-                "referredType"
+                "id"
             ],
             "properties": {
                 "id": {
