@@ -1,8 +1,8 @@
-# TMF622_ProductOrder
-TM Forum Open APIs (Apache 2.0) Product Order API
+# TMF622 ProductOrder
 
-Provides a standardized mechanism for placing a product order with all of the necessary order parameters. The API consists of a simple set of operations that interact with CRM/Order negotiation systems in a consistent manner. A product order is created based on a product offering that is defined in a catalog. The product offering identifies the product or set of products that are available to a customer, and includes characteristics such as pricing, product options and market.
+TM Forum Open API (Apache 2.0) ProductOrder API.
 
-To access this API; (the Specification, Postman Collection, Swagger file, Swagger-UI, Reference Implementation, Conformance Profile, and CTK) go to the Open API table at:
+TM Forum Open API for ProductOrder.
 
-https://projects.tmforum.org/wiki/display/API/Open+API+Table
+The resources in this repository are a mirror of the official versions, published here for your convenience.
+The authoritative source of information for this API is: https://www.tmforum.org/oda/open-apis/directory/
